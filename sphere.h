@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 #include "shape3d.h"
+#ifndef SPHERE_H
+#define SPHERE_H
 #define PI 3.1415
 
 class Sphere : public Shape3D {
@@ -30,3 +32,5 @@ public:
 		return "Sphere";
 	}
 };
+
+#endif

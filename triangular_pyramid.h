@@ -1,6 +1,8 @@
 #pragma once
 #include "shape3d.h"
 #include "triangle.h"
+#ifndef TRIANGLEPYRAMID_H
+#define TRIANGLEPYRAMID_H
 
 class TriangularPyramid : public Shape3D {
 private:
@@ -9,7 +11,7 @@ private:
 	Triangle baseTriangle;
 
 	void CalculateVolume() override {
-		volume = 1/3 * baseTriangle.GetArea() * height;
+		volume = ((1/3) * baseTriangle.GetArea() * height);
 	}
 
 public:
@@ -31,3 +33,5 @@ public:
 		return "Triangular Pyramid";
 	}
 };
+
+#endif
