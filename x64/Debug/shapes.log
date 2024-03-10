@@ -1,0 +1,5 @@
+﻿  shapes.cpp
+C:\Users\matve\OneDrive\Рабочий стол\проекты С++\shapes\circle.h(12,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\matve\OneDrive\Рабочий стол\проекты С++\shapes\triangle.h(11,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\matve\OneDrive\Рабочий стол\проекты С++\shapes\sphere.h(11,44): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  shapes.vcxproj -> C:\Users\matve\OneDrive\Рабочий стол\проекты С++\shapes\x64\Debug\shapes.exe
